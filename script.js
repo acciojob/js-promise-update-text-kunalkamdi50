@@ -25,7 +25,7 @@ const promise = new Promise((resolve, reject) =>{
 
 const showMassege = (message) => {
   const output = document.getElementById("output")
-  output.innerText = message;
+  output.textContent = message;
 }
 
 promise.then(showMassege);
