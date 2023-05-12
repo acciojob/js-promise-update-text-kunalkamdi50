@@ -1,4 +1,4 @@
-your JS code here. If required.
+// your JS code here. If required.
 function delayMessage() {
   return new Promise((resolve) => {
     setTimeout(() => {
